@@ -2,4 +2,4 @@
 The laziest nmap of all
 
 
-!img(image)[https://i.imgur.com/HozlLsh.png]
+!img[image](https://i.imgur.com/HozlLsh.png)
