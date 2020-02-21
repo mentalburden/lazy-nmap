@@ -4,7 +4,7 @@ import asyncio as asyncio
 
 iplistpath = 'iplist.txt'
 outfilepath = '' #nothing or absolute path
-liveHostsCmd = "nmap -sn 45.55.24.10/24 -oG - | awk '{ print $2 }'"
+liveHostsCmd = "nmap -sn ip/24 -oG - | awk '{ print $2 }'"
 cmdToRun = 'nmap -T4 --min-parallelism 1 --max-parallelism 1 -F --open ' #needs a space at the end
 iptargets = []
 livetargets = []
